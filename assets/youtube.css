@@ -61,6 +61,10 @@ nav {
     border-radius: 10px;
     
 }
+main{
+    display: flex;
+    flex-direction: row;
+}
 
 .grid {
     display: flex;
@@ -76,4 +80,8 @@ gap: 20px;
 .thumbnail {
     flex-basis: calc(33.33% -10px);
     box-sizing: border-box;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
 }
